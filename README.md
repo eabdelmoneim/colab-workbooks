@@ -4,11 +4,11 @@ Example Google Colab notebooks for prototyping AI-enabled sourcing and manufactu
 
 ## Repository Contents
 
-- `Hoth_Industries_Demo.ipynb`: End-to-end demo notebook showing how to clean procurement data, join it with CADDi-style drawing metadata, and generate practical sourcing/design alerts.
+- `hoth-demo/Hoth_Industries_Demo.ipynb`: End-to-end demo notebook showing how to clean procurement data, join it with CADDi-style drawing metadata, and generate practical sourcing/design alerts.
 
 ## Notebook Overview
 
-### `Hoth_Industries_Demo.ipynb`
+### `hoth-demo/Hoth_Industries_Demo.ipynb`
 
 This workbook demonstrates a 3-phase pipeline:
 
@@ -54,3 +54,4 @@ This repo is intended as a working example for moving from fragmented tribal-kno
 
 - Current notebook is demo-oriented and uses mocked CADDi-related metadata/similarity files.
 - Extend this repo by adding more notebooks for new scenarios (supplier onboarding, lead-time forecasting, cost optimization, etc.).
+- Demo notebooks are organized in scenario-specific folders (for example, `hoth-demo/`).
