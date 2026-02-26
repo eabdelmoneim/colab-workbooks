@@ -98,14 +98,17 @@ def main() -> None:
     drawer_sim = data["drawer_sim"]
 
     with st.sidebar:
-        st.header("About the Data")
+        st.header("About the Application")
         st.markdown("""
-- Unified Warehouse: Merges Hoth execution history (PO/Quality/RFQ) with a simulated geometric intelligence layer.
-- Complexity Proxy (1–10): A simplified stand-in for the CADDi Drawer API’s high-dimensional feature extraction (e.g., hole counts, tolerances, and setups). Used here to investigate the link between design intricacy and sourcing performance.
-- Similarity Logic: Emulates CADDi’s Vector Embeddings. Parts with a Match Score $\\ge 0.95$ are flagged as "Geometric Twins" for VA/VE and volume consolidation.
-- Producibility Loop: Maps historical quality failures to specific geometric profiles to simulate a proactive risk-warning system.
-- Quote Benchmarking: Replaces price "prediction" with a complexity-aware comparison between new RFQ responses and historical purchase data.
-- Try these parts for high-similarity analysis (at least one match with score >= 0.95): FINS-7715 (max: 0.98), FINS-7725 (max: 0.98), HX-5512 (max: 0.99), HX-5515 (max: 0.98), HX-5525 (max: 0.98), HX-5530 (max: 0.95).
+- Data Layer merges Hoth execution history data (PO/Quality/RFQ) with a simulated CADDi geometric intelligence layer using mock data.
+- Similarity Logic: Parts with a Match Score >= 0.95 are flagged as "Geometric Twins".
+- Features: 
+  - Sourcing Performance
+  - Producibility Advisor
+  - Quote Benchmarking
+  - VA/VE Opportunity Finder
+
+**NOTE:** Try these parts for high-similarity analysis (at least one match with score >= 0.95): **FINS-7715**, **FINS-7725**, **HX-5512**, **HX-5515**, **HX-5525**, **HX-5530**.
 """)
 
     overall_rej = (master["parts_rejected"].sum() / master["parts_inspected"].replace(0, pd.NA).sum()) if master["parts_inspected"].sum() else 0
@@ -172,7 +175,7 @@ def main() -> None:
         "A. Sourcing Performance",
         "B. Producibility Advisor",
         "C. Quote Benchmarking",
-        "D. VA/VE Consolidation",
+        "D. VA/VE Opportunity Finder",
     ])
 
     with tab_a:
