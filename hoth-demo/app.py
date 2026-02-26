@@ -110,6 +110,7 @@ def main() -> None:
 
 **NOTE:** Try these parts for high-similarity analysis (at least one match with score >= 0.95): **FINS-7715**, **FINS-7725**, **HX-5512**, **HX-5515**, **HX-5525**, **HX-5530**.
 """)
+        st.markdown("[View this project on GitHub](https://github.com/eabdelmoneim/colab-workbooks/tree/main/hoth-demo)")
 
     overall_rej = (master["parts_rejected"].sum() / master["parts_inspected"].replace(0, pd.NA).sum()) if master["parts_inspected"].sum() else 0
     late_share = (master["days_late"] > 10).mean() if len(master) else 0
