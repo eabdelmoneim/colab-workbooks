@@ -5,6 +5,8 @@ Example Google Colab notebooks for prototyping AI-enabled sourcing and manufactu
 ## Repository Contents
 
 - `hoth-demo/Hoth_Industries_Demo.ipynb`: End-to-end demo notebook showing how to clean procurement data, join it with CADDi-style drawing metadata, and generate practical sourcing/design alerts.
+- `hoth-demo/app.py`: Streamlit dashboard for part-level quality, sourcing, similarity, quote, and VA/VE analysis.
+- `hoth-demo/data/`: Input CSV datasets used by the notebook and dashboard.
 
 ## Notebook Overview
 
@@ -37,6 +39,8 @@ Upload these CSV files to the Colab Files sidebar before running notebook cells:
 
 ## How to Run
 
+### Colab Notebook
+
 1. Open the notebook in Google Colab.
 2. Upload the required CSV files to the Colab runtime.
 3. Run cells top-to-bottom.
@@ -45,6 +49,13 @@ Upload these CSV files to the Colab Files sidebar before running notebook cells:
 - Supplier risk scorecard
 - DfM advisory message for target part (example: `HX-5530`)
 - Quote benchmark alert vs historical pricing
+
+### Streamlit Dashboard
+
+1. Create and activate a virtual environment.
+2. Install dependencies from `hoth-demo/requirements.txt`.
+3. Launch Streamlit:
+   `streamlit run hoth-demo/app.py`
 
 ## Use Case
 

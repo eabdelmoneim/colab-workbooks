@@ -1,0 +1,55 @@
+part_number,part_description,geometry_type,complexity_score
+CTRL-9998,Touch Screen Controller,Electronic - Assembly,7
+HX-5530,Heat Exchanger - Heavy Duty,Machined - Complex,7
+DAMPER-3305,"Pneumatic Damper 36""",Cast - Precision,7
+BEARING-9910,Sealed Bearing Assembly,Standard Hardware,7
+BEARING-9905,Heavy Duty Bearing Set,Standard Hardware,7
+BRKT-1005,Heavy Duty Mount - Aluminum,Sheet Metal - Formed,7
+CTRL-9985,PLC Control Module,Electronic - Assembly,7
+PANEL-8820,Stainless Control Panel,Sheet Metal - Formed,7
+HX-5520,Aluminum Heat Exchanger - 60x36,Machined - Complex,7
+CTRL-9995,VFD Controller 10HP,Electronic - Assembly,7
+HX-5512,Aluminum Heat Exchanger - 48x24,Machined - Complex,7
+SENSOR-4410,Humidity Sensor Module,Electronic - Assembly,7
+SENSOR-4420,Flow Sensor - Digital,Sheet Metal - Formed,7
+MOTOR-6634,3HP Fan Motor Assembly,Cast - Precision,7
+FILTER-5510,HEPA Filter - Industrial,Sheet Metal - Formed,7
+PANEL-8801,Control Panel Enclosure,Sheet Metal - Formed,7
+FINS-7715,Copper Fins for Heat Exchanger,Machined - Complex,7
+HX-5515,Copper Heat Exchanger Coil,Machined - Complex,7
+SENSOR-4405,Temperature Sensor Probe,Sheet Metal - Formed,7
+FINS-7725,Heat Exchanger Fins,Machined - Complex,7
+SHAFT-2210,Stainless Drive Shaft,Sheet Metal - Formed,7
+FAN-2847,"24"" Axial Cooling Fan",Cast - Precision,7
+BRKT-1001,Mounting Bracket - Steel,Standard Hardware,7
+HX-5525,Copper Heat Exchanger - Custom,Machined - Complex,7
+HX-5535,Copper Coil Heat Exchanger,Machined - Complex,7
+LOUVER-6615,"Weather Louver 72""",Sheet Metal - Formed,7
+SENSOR-4415,Pressure Transducer,Sheet Metal - Formed,7
+BRKT-1015,Heavy Mount - Galvanized,Sheet Metal - Formed,7
+HX-5540,Aluminum Heat Exchanger,Machined - Complex,7
+BRKT-1020,Vibration Isolator Mount,Sheet Metal - Formed,7
+CTRL-9990,Master Control Board,Sheet Metal - Formed,7
+DAMPER-3310,"Electric Damper 48""",Cast - Precision,7
+LOUVER-6601,"Aluminum Louver Panel 48""",Sheet Metal - Formed,7
+MOTOR-6641,7.5HP Fan Motor,Cast - Precision,7
+FILTER-5501,Air Filter - HEPA Grade,Sheet Metal - Formed,7
+FINS-7712,Heat Exchanger Fins - Aluminum,Machined - Complex,7
+PANEL-8810,Powder Coated Panel,Sheet Metal - Formed,7
+SHAFT-2201,Motor Drive Shaft - SS304,Sheet Metal - Formed,7
+PANEL-8815,Aluminum Control Panel,Sheet Metal - Formed,7
+FILTER-5505,Carbon Air Filter,Sheet Metal - Formed,7
+CTRL-9981,Digital Temperature Controller,Electronic - Assembly,7
+FAN-2860,"36"" Axial Cooling Fan",Cast - Precision,7
+SHAFT-2208,SS316 Drive Shaft,Sheet Metal - Formed,7
+DAMPER-3301,"Motorized Air Damper 24""",Cast - Precision,7
+LOUVER-6605,"Louver with Screen 60""",Sheet Metal - Formed,7
+SHAFT-2205,Drive Shaft - Hardened Steel,Sheet Metal - Formed,7
+FAN-2850,"30"" Axial Cooling Fan",Cast - Precision,7
+FINS-7720,Aluminum Fins - Thin Wall,Machined - Complex,7
+MOTOR-6645,10HP Fan Motor,Cast - Precision,7
+PANEL-8805,Electrical Panel - Stainless,Sheet Metal - Formed,7
+BRKT-1010,Adjustable Mount Bracket,Standard Hardware,7
+MOTOR-6638,5HP Fan Motor Assembly,Cast - Precision,7
+BEARING-9915,Pillow Block Bearing,Standard Hardware,7
+FAN-2855,"28"" Axial Fan - High CFM",Cast - Precision,7
